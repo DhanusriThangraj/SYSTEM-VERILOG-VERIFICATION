@@ -1,8 +1,7 @@
 class driver;
   transaction trans;
   mailbox gen_to_driv;
-  virtual inter interf;
-  
+  virtual inter interf;  
   function new(virtual inter interf,mailbox gen_to_driv);
     this.interf=interf;
     this.gen_to_driv=gen_to_driv;

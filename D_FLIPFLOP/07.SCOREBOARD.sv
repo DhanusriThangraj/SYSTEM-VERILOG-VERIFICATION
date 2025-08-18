@@ -4,8 +4,7 @@ class scoreboard;
   event sri;
   function new(mailbox moni_to_score);
     this.moni_to_score=moni_to_score;
-  endfunction
-  
+  endfunction  
   task run();
     trans=new();
     repeat(50)begin

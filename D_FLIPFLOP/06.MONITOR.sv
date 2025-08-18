@@ -1,8 +1,7 @@
 class monitor;
   transaction trans;
   mailbox moni_to_score;
-  virtual inter interf;
-  
+  virtual inter interf; 
   function new (virtual inter interf,mailbox moni_to_score);
     this.interf =interf;
     this.moni_to_score=moni_to_score;   

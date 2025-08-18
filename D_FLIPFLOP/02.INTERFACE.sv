@@ -4,3 +4,4 @@ interface inter();
   logic d;
   logic q;
 endinterface
+

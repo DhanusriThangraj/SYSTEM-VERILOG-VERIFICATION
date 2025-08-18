@@ -2,7 +2,6 @@
 `include "test.sv"
 module d_flipflop_tb;
   
-
   initial begin
   interf.clk=0;
     end

@@ -40,6 +40,5 @@ class environment;
       moni.run();
       score.run();
     join
-  endtask
-  
+  endtask 
 endclass

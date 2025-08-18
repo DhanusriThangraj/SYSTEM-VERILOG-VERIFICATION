@@ -9,3 +9,4 @@ class transaction;
     $display("Time=%0t reset=%b d=%b q=%b",$time,reset,d,q);
   endfunction
 endclass
+

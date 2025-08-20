@@ -7,6 +7,7 @@ class generator;
     this.trans=trans;
     this.gen_to_driv=gen_to_driv;
   endfunction
+
   
   task run();
     trans=new();

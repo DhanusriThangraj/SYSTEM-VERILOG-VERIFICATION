@@ -3,7 +3,6 @@
 `include "driver.sv"
 `include "monitor.sv"
 `include  "scoreboard.sv"
-
 class environment;
   transaction trans;
   generator gen;

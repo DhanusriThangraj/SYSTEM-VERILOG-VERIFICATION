@@ -6,3 +6,4 @@ interface inter #(parameter N=4,M=16);
   logic en;
   logic [N-1:0]dout;
 endinterface
+

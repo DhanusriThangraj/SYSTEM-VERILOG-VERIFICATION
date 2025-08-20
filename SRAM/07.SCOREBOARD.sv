@@ -7,6 +7,7 @@ class scoreboard #(parameter N=4,M=16);
   function new(mailbox moni_to_score);
     this.moni_to_score=moni_to_score;
     endfunction
+
   
   task run();
     trans=new();

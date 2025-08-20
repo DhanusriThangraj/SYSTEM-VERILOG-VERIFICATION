@@ -13,3 +13,4 @@ class transaction #(parameter N=4,M=16);
     $display("TIME=%0t reset=%0b din=%0d addr=%0d en=%0b dout=%0d",$time,reset,din,addr,en,dout);
   endfunction
 endclass
+

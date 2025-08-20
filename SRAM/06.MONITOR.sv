@@ -12,8 +12,7 @@ class monitor;
     trans=new();
  repeat(100) begin
    
-  @(posedge interf.clk);
-      
+  @(posedge interf.clk);      
       trans.din=interf.din;
       trans.en=interf.en;
       trans.addr=interf.addr;

@@ -21,8 +21,7 @@ module testbench;
 //    forever #40 interf.en=~interf.en;
      #700;
   $finish;
-  end
-  
+  end 
   initial begin
     $dumpfile("dumpfile.vcd");
     $dumpvars();

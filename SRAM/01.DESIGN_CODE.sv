@@ -18,3 +18,4 @@ module sram #(parameter N=4,M=16)(input clk,
     end
   end
 endmodule
+

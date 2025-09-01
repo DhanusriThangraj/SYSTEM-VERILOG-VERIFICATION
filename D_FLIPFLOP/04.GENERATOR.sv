@@ -8,7 +8,7 @@ class generator;
        this.gen_to_driv=gen_to_driv;
   endfunction
   
-  task run();
+task run();
     trans=new();
     repeat(50)begin
       void'(trans.randomize());

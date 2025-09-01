@@ -15,9 +15,7 @@ module d_flipflop_tb;
     interf.reset=1;
     #20; interf.reset=0;
   end
-  
-
-  
+    
   initial begin
     $dumpfile("dumpfile.vcd");
     $dumpvars();

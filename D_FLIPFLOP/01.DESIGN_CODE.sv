@@ -8,3 +8,4 @@ module d_flipflop(input clk,reset,d,
     q<=d;
   end 
 endmodule
+
